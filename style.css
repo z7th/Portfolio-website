@@ -412,7 +412,7 @@ span{
     border: .2rem solid var(--main-color);
 }
 
-.about-img .circle-spin {
+.about-img .circle {
     position: absolute;
     top: 50%;
     left: 50%;

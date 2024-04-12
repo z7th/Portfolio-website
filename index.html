@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -15,111 +15,118 @@
     <header class="header">
         <a href="#" class="logo">Ian.</a>
 
+        <!-- Menu-icon voor navigatie op mobiel -->
         <div class="bx bx-menu" id="menu-icon"></div>
 
         <nav class="navbar">
 
             <a href="#" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a> 
+            <a href="#portfolio">Portfolio</a> 
   
-
             <span class="active-nav"></span>
         </nav>
     </header>
 
-        <section class="home">
-            <div class="home-content">
-                <h1>Hi, I'm Ian.</h1>
-                <h3>Front-end Developer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                     Nibh ipsum consequat nisl vel pretium lectus quam id leo. </p>
-                     <div class="btn-box">
-                        <a href="#about">About me</a>
-                        <a href="#portfolio">My projects</a>
-                     </div>
+    <!-- De Home-sectie -->
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Ian.</h1> 
+            <h3>Front-end Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 Nibh ipsum consequat nisl vel pretium lectus quam id leo. </p>
+            <div class="btn-box">
+                <a href="#about">About me</a> 
+                <a href="#portfolio">My projects</a>
             </div>
+        </div>
 
+<<<<<<< Updated upstream
             <div class="home-sci">
                 <a href="https://github.com/z7th"><i class='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/ian-huis-in-t-veld-01617a223/"><i class='bx bxl-linkedin' ></i></a>
                 <a href="https://twitter.com/?lang=nl"><i class='bx bxl-twitter' ></i></a>
             </div>
+=======
+        <div class="home-sci">
+            <a href=""><i class='bx bxl-github'></i></a> 
+            <a href=""><i class='bx bxl-linkedin' ></i></a>
+            <a href=""><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <!-- Afbeelding hover-effect -->
+        <span class="home-imgHover"></span> 
+    </section>
+>>>>>>> Stashed changes
 
-            <span class="home-imgHover"></span>
-        </section>
+    <!-- About-sectie -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
 
-        <!--about section design-->
-        <section class="about" id="about">
-            <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="home1.png" alt=""> 
+            <span class="circle"></span>
+        </div>
 
-            <div class="about-img">
-            <img src="home1.png" alt="">
-            <span class="circle-spin"></span>
-            </div>
+        <!-- About-sectie Content -->
+        <div class="about-content">
+            <h3>Software Developer!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Rhoncus urna neque viverra justo nec ultrices dui. Viverra tellus in hac habitasse.
+               Lorem donec massa sapien faucibus et molestie ac feugiat. Lectus urna duis convallis convallis.
+               Feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam. Adipiscing enim eu turpis egestas pretium.
+               Sed libero enim sed faucibus. Vitae justo eget magna fermentum iaculis eu non diam. Nec ultrices dui sapien eget mi proin.
+               Sem integer vitae justo eget magna. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Elementum facilisis leo vel fringilla est ullamcorper.
+               Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. 
+            </p>
+        </div>
+    </section>
 
-            <div class="about-content">
-                <h3>Software Developer!</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                   Rhoncus urna neque viverra justo nec ultrices dui. Viverra tellus in hac habitasse.
-                   Lorem donec massa sapien faucibus et molestie ac feugiat. Lectus urna duis convallis convallis.
-                   Feugiat sed lectus vestibulum mattis. Sed sed risus pretium quam. Adipiscing enim eu turpis egestas pretium.
-                   Sed libero enim sed faucibus. Vitae justo eget magna fermentum iaculis eu non diam. Nec ultrices dui sapien eget mi proin.
-                   Sem integer vitae justo eget magna. Malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Elementum facilisis leo vel fringilla est ullamcorper.
-                   Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. 
-                </p>
-            </div>
-        </section>
+    <!-- Portfolio-sectie -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Portfolio</span></h2>
+    
+        <div class="portfolio-row">
+            <div class="portfolio-column">
+    
+                <div class="portfolio-box">
+                    <!-- Project 1 -->
+                    <div class="portfolio-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>FastDeliveryEU</h3>
+                            <p>Project FastDeliveryEU samen met Mitchell en Stephan.</p>
 
-        <!--portfolio section design-->
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">My <span>Portfolio</span></h2>
-        
-            <div class="portfolio-row">
-                <div class="portfolio-column">
-        
-                    <div class="portfolio-box">
-                        <div class="portfolio-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2024</div>
-                                <h3>FastDeliveryEU</h3>
-                                <p>Project FastDeliveryEU samen met Mitchell en Stephan.</p>
-
-                                <div class="btn-box" style="text-align: center; margin-top: 15px;">
-                                    <a href="#">Live demo</a>
-                                </div>
-                                
+                            <div class="btn-box" style="text-align: center; margin-top: 15px;">
+                                <a href="#">Live demo</a>
                             </div>
                         </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="portfolio-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>Mees Catering</h3>
+                            <p>Project Mees Catering samen met Ase en Stephan.</p>
 
-                        <div class="portfolio-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2024</div>
-                                <h3>Mees Catering</h3>
-                                <p>Project Mees Catering samen met Ase en Stephan.</p>
-
-                                <div class="btn-box" style="text-align: center; margin-top: 15px;">
-                                    <a href="#">Live demo</a>
-                                </div>
+                            <div class="btn-box" style="text-align: center; margin-top: 15px;">
+                                <a href="#">Live demo</a>
                             </div>
                         </div>
-                        <div class="portfolio-content">
-                            <div class="content">
-                                <div class="year"><i class='bx bxs-calendar'></i>2024</div>
-                                <h3>Portfolio website</h3>
-                                <p>Project Portfolio website alleen gemaakt. </p>
-
-                                
-                            </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="portfolio-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2024</div>
+                            <h3>Portfolio website</h3> 
+                            <p>Project Portfolio website alleen gemaakt. </p> 
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
- 
-
-        <script src="script.js"></script>
+        </div>
+    </section>
+    <!-- Koppeling naar JavaScript-bestand -->
+    <script src="script.js"></script> 
 </body>
-</html>
 
+</html>
